@@ -39,7 +39,7 @@
   .dotted-circle {
     width: 255.58px;
     height: 246.96px;
-    border: 3px dashed orangered;
+    border: 4px dashed orangered;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -48,7 +48,8 @@
   }
   
   .time {
-    font-size: 32px;
+    font-size: 30px;
     color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
   }
   

@@ -5,12 +5,13 @@ import React, { useState, useEffect } from "react";
 import TimerDisplay from "./Pomodoro project/TimerDisplay";
 import ModeButton from "./Pomodoro project/ModeButton";
 import "./App.css";
- import Page from "./Pomodoro project/Page";
+// import Page from "./Pomodoro project/Page";
+ 
 
 const MODES = {
   focus: { time: 25 * 60, background: "#ffffff" },
-  shortBreak: { time: 5 * 60, background: "#5CB85C" },
-  longBreak: { time: 10 * 60, background: "#007BFF" },
+  shortBreak: { time: 5 * 60, background: "#ffffff" },
+  longBreak: { time: 10 * 60, background: "#ffffff" },
 };
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
 
   return (
     <div className="app" style={{ backgroundColor: MODES[mode].background }}>
+
+      {/* <Page/> */}
       <div className="container">
         <h2 className="title">Pomodoro Timer</h2>
         <TimerDisplay time={time} />
@@ -46,7 +49,7 @@ function App() {
           toggleActive={() => setIsActive((prev) => !prev)}
         />
       </div>
-     
+       
     </div>
 
     

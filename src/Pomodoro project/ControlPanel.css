@@ -46,7 +46,7 @@
   
   .mode-button {
    width: 147.5px;
-    border: none;
+    border: none ;
     border-radius:4.41px;
     font-size: 16px;
     cursor: pointer;
@@ -57,17 +57,29 @@
     margin-right: 10px;
     height: 70.19px;
     gap: 2px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     
   }
 
   .spans{
-   padding-left: 75px;
+   padding-left: 60px;
+   font-weight: 700;
   
   }
 
   .panpan{
-    padding-right: 45px;
+    padding-right: 50px;
+    font-size: 15px;
   }
+
+  .design{
+    width: 18px;
+    height: 25px;
+    color: #fff;
+    
+   
+  }
+  
 
   .node-button {
     width: 147.5px;
