@@ -1,0 +1,40 @@
+/* .app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    flex-direction: column;
+  } */
+
+ /* App container centered on screen */
+/* Main container centered on the screen */
+ 
+/* Main Container */
+/* Container Styling */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+  
+  
+  
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  
+ 
+  text-align: center;
+}
+
+.title {
+  font-size: 34px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+

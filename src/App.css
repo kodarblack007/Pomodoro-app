@@ -6,7 +6,7 @@
 }
  */
 
- *{
+ /* *{
   margin:0;
   padding: 0;
  }
@@ -23,21 +23,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgba(255, 255, 255, 1);
+  background-color:rgba(255, 255, 255, 1); */
   /* border: none; */
- }
+ /* } */
 
- .one{
+ /* .one{
   display: flex;
   gap: 10px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* margin-bottom: 30px; */
- }
+ /* } */
 
 
- .sign{
+ /* .sign{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,11 +91,11 @@
   font-size: 15px;
   line-height: 11px;
   color:#282C36;
- }
+ } */
 
- .line{
+ /* .line{ */
   /* color: #CFD7E2; */
-  display: flex;
+  /* display: flex;
   gap: 4px;
   justify-content: center;
   flex-direction: row;
@@ -104,9 +104,9 @@
 
  .line p{
   margin-top: -5px;
- }
+ } */
 
- .line1{
+ /* .line1{
   height: 1px;
   width: 150px;
   background-color: #CFD7E2;
@@ -115,9 +115,25 @@
   height: 1px;
   width: 150px;
   background-color: #CFD7E2;
- }
+ } */
  
- .mail{
+
+ /* .over{
+  border: 1px solid;
+  margin-top: 100px;
+  margin: 1rem  30rem 2rem 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30rem;
+  border: none;
+  margin-left: 1px;
+ } */
+
+
+
+ /* .mail{
   margin-top: 1rem;
   margin-left: 10px;
  }
@@ -210,11 +226,11 @@
   line-height: 11px;
   color: #EF5D44;
   
- }
+ } */
 
- .container{
+ /* .container{ */
   /* border: 1px solid black; */
-  display: flex;
+  /* display: flex;
   gap: 30px;
   justify-content: center;
   align-items:center ;
@@ -246,152 +262,49 @@
   gap: 8px;
   align-items: center;
   justify-content: space-between;
-  padding:  0px 10px;
-  background-color: whitesmoke;
-}
+  padding: 50px;
+} */
 
-.cons{
+/* .cons{
   display: flex;
   gap: 10px;
   align-items: center;
 }
+ */
 
-.the{
-  font: Inter;
-   font-weight: 700;
-   font-size: 58px;
-   line-height: 66px;
-   text-align: center;
-   color: rgba(0, 0, 0, 1);
-}
-
-.focus{
-  display: flex;
-  background-color: #EF5D44;
-  margin-right: 7rem;
-  justify-content: center;
-  align-items: center;
-  padding: 2px 10px;
-
-}
-
-.focus2{
-  display: flex;
-  background-color: #EF5D44;
-  margin-right: 7rem;
-  justify-content: center;
-  align-items: center;
-  padding: 2px 10px;
-
-}
-
-
-.splash{
-  margin-top: -35px;
-  width:400px;
-}
-
-.timer{
-  font: Sarabun;
-  font-weight: 700;
-  font-size: 58px;
-  line-height: 66px;
-}
-
-.second{
-  height: 70px;
-  width: 84rem;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  justify-content: space-between;
-  padding:  0px 70px;
-}
-
-.third{
-  height: 70px;
-  width: 84rem;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  justify-content: space-between;
-  padding:  0px 70px;
-}
-
-.fourth{
-  height: 70px;
-  width: 84rem;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  justify-content: space-between;
-  padding:  0px 70px;
-}
-
-.fifth{
-  height: 70px;
-  width: 84rem;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  justify-content: space-between;
-  padding:  0px 70px;
-}
-
-
-.dotted{
-  margin-left: -70px;
-}
-
-.dot{
-  margin-left: 1px;
-}
-
-.dot2{
-  margin-left: -30px;
-}
-
-.dot3{
-  margin-left: -30px;
-}
-
-.grav{
-  margin-top: 20rem;
- margin-bottom: 100px;
-}
-
-
-.turn{
-  font: Inter;
-  font-weight: 700;
-  font-size: 58px;
-  line-height: 66px;
+ .app {
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin-top: 100px;
+  align-items: center;
+  height: 100vh;
+  padding: 0, 119.02px;
+  width:  632px;
+  height:  581.06px ;
+  border-radius: 18px;
+  margin-top: 150px;
+  margin-left: 80px;
+  gap: 94.78px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.container {
+  width: fill (625.96px);
+  height: fixed (378.69px);
+  justify-content: space-between;
+  
+ 
   
 }
 
-.hanced{
-  display: flex;
-  gap: 100px;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10px;
-  margin-top: 100px;
-  padding: 0px 50px;
-}
-
-.hanced h1{
-  font: Sarabun;
+.title {
+  /* font-size: 24px; */
+  margin-bottom: 70px;
+  color: #000000;
+  text-align: center;
+ font-size: 24.04px;
+  line-height:51.24px;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 48px;
-
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
-
-
-
- 
- 
